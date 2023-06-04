@@ -67,9 +67,4 @@ final List<PodCast> podcasts = [
     singer: 'Pink Floyd ',
     img: 'assets/images/image6.jpg',
   ),
-  PodCast(
-    title: 'Winds of change',
-    singer: 'Scorpians',
-    img: 'assets/images/image7.jpg',
-  ),
 ];

@@ -29,7 +29,7 @@ class HSearchBar extends StatelessWidget {
                     decoration: const InputDecoration(
                       contentPadding: EdgeInsets.symmetric(horizontal: 20),
                       border: InputBorder.none,
-                      hintText: 'Search......',
+                      hintText: 'Search...',
                       hintStyle: TextStyle(
                         fontSize: 12,
                         color: textSecondary,

@@ -22,15 +22,15 @@ class WelcomeScreen extends StatelessWidget {
           ),
           // Middle yellow Circle
           Positioned(
-            top: size.height * .4,
-            left: -size.height * .2,
-            height: size.height * .4,
-            width: size.height * .4,
+            top: size.height * .45,
+            left: -size.height * .18,
+            height: size.height * .48,
+            width: size.height * .43,
             child: Container(
               color: Colors.transparent,
               padding: const EdgeInsets.all(10),
               child: ClipPath(
-                clipper: WelCircleClipper(),
+                clipper: WelCircle1Clipper(),
                 child: Container(
                   color: Colors.yellow[700],
                   child: Image.asset('assets/images/people2.jpg',
@@ -41,12 +41,12 @@ class WelcomeScreen extends StatelessWidget {
           ),
           // bottom yellow circl
           Positioned(
-            bottom: -size.height * .06,
-            right: -size.height * .06,
-            height: size.height * .2,
-            width: size.height * .2,
+            bottom: -size.height * .13,
+            right: -size.height * .13,
+            height: size.height * .3,
+            width: size.height * .25,
             child: ClipPath(
-              clipper: WelCircleClipper(),
+              clipper: WelCircle2Clipper(),
               child: Container(
                 color: Colors.yellow[700],
                 child:
