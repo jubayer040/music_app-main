@@ -15,7 +15,7 @@ class WelcomeScreen extends StatelessWidget {
           // back back cover
           Positioned.fill(
             child: Image.asset(
-              'assets/images/cover3.jpg',
+              'assets/images/cover4.jpg',
               colorBlendMode: BlendMode.colorBurn,
               fit: BoxFit.cover,
             ),
@@ -23,7 +23,7 @@ class WelcomeScreen extends StatelessWidget {
           // Middle yellow Circle
           Positioned(
             top: size.height * .4,
-            left: -size.height * .15,
+            left: -size.height * .2,
             height: size.height * .4,
             width: size.height * .4,
             child: Container(
@@ -41,8 +41,8 @@ class WelcomeScreen extends StatelessWidget {
           ),
           // bottom yellow circl
           Positioned(
-            bottom: -size.height * .13,
-            right: -size.height * .08,
+            bottom: -size.height * .06,
+            right: -size.height * .06,
             height: size.height * .2,
             width: size.height * .2,
             child: ClipPath(

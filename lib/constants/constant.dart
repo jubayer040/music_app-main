@@ -53,14 +53,9 @@ final List<PodCast> podcasts = [
     img: 'assets/images/image2.jpg',
   ),
   PodCast(
-    title: 'November Rain',
-    singer: 'Gun\'s n Roses',
-    img: 'assets/images/image3.jpg',
-  ),
-  PodCast(
     title: 'Hey Jude',
     singer: 'The Beatles',
-    img: 'assets/images/image4.png',
+    img: 'assets/images/image3.jpg',
   ),
   PodCast(
     title: 'There is a light that never goes out',
